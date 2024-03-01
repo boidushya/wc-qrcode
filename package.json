@@ -1,0 +1,17 @@
+{
+  "name": "ep-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.5",
+    "@walletconnect/ethereum-provider": "^2.11.2",
+    "clipboardy": "^4.0.0",
+    "qrcode": "^1.5.3"
+  }
+}
